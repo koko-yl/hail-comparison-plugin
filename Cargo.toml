@@ -1,0 +1,13 @@
+[lib]
+crate-type = ["cdylib"]
+
+[package]
+name = "comparison"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+
+[dependencies]
+hail_pdk = { version = "0.3.1", features = ["drawing", "serde"] }
+serde = { version = "1.0", features = ["derive"] }
