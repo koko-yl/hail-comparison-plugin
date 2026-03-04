@@ -32,7 +32,7 @@ impl HailPlugin for SegmentPlugin {
         let creator = c.texture_creator();
         let mut renderer = TextRenderer::new(ssrc, font).unwrap();
         let textures = [
-            renderer.render_text_line(" Comparison: ", color, &creator),
+            renderer.render_text_line("Comparing Against: ", color, &creator),
             renderer.render_text_line(" Personal Best", color, &creator),
             renderer.render_text_line(" Golds", color, &creator),
             renderer.render_text_line(" Average", color, &creator),
